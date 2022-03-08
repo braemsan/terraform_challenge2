@@ -16,11 +16,12 @@ variable "dns_prefix" {
 variable cluster_name {
     default = "k8stest"
 }
-
+# Don't forget to change this
+# Get this from azure sandbox JSON file
 variable resource_group_name {
     default = "1-356076cd-playground-sandbox"
 }
-
+# This needs to be changed too based on your sandbox location
 variable location {
     default = "westus"
 }
